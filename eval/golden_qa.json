@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is a chain in LangChain?",
+    "ground_truth_answer": "A chain in LangChain is a sequence of calls to components (LLMs, tools, or other chains) that are linked together to accomplish a task. Chains combine multiple steps into a single workflow.",
+    "ground_truth_contexts": ["langchain"]
+  },
+  {
+    "question": "How do you create a retrieval chain in LangChain?",
+    "ground_truth_answer": "You create a retrieval chain by combining a retriever (e.g., a vector store retriever) with an LLM chain. The retriever fetches relevant documents and the LLM generates an answer based on those documents.",
+    "ground_truth_contexts": ["langchain"]
+  },
+  {
+    "question": "What is a list comprehension in Python?",
+    "ground_truth_answer": "A list comprehension is a concise way to create lists in Python. It consists of brackets containing an expression followed by a for clause, then zero or more for or if clauses.",
+    "ground_truth_contexts": ["python"]
+  },
+  {
+    "question": "How do you handle exceptions in Python?",
+    "ground_truth_answer": "Exceptions in Python are handled using try/except blocks. You place the code that might raise an exception in the try block and handle specific exceptions in except clauses.",
+    "ground_truth_contexts": ["python"]
+  },
+  {
+    "question": "What are Python decorators?",
+    "ground_truth_answer": "Decorators are a way to modify or extend the behavior of functions or methods without changing their source code. They use the @decorator syntax and wrap the target function.",
+    "ground_truth_contexts": ["python"]
+  },
+  {
+    "question": "What is an embedding in the context of LangChain?",
+    "ground_truth_answer": "An embedding is a numerical vector representation of text that captures semantic meaning. LangChain provides embedding models that convert text into vectors for similarity search and retrieval.",
+    "ground_truth_contexts": ["langchain"]
+  },
+  {
+    "question": "How does a vector store work in LangChain?",
+    "ground_truth_answer": "A vector store in LangChain stores document embeddings and supports similarity search. Documents are embedded into vectors and stored, then queries are embedded and compared against stored vectors to find the most relevant documents.",
+    "ground_truth_contexts": ["langchain"]
+  },
+  {
+    "question": "What is the difference between a tuple and a list in Python?",
+    "ground_truth_answer": "Lists are mutable ordered sequences created with square brackets, while tuples are immutable ordered sequences created with parentheses. Tuples are hashable and can be used as dictionary keys.",
+    "ground_truth_contexts": ["python"]
+  },
+  {
+    "question": "What is LCEL in LangChain?",
+    "ground_truth_answer": "LCEL (LangChain Expression Language) is a declarative way to compose chains in LangChain using the pipe operator (|). It provides a unified interface for building complex chains with streaming, batch, and async support.",
+    "ground_truth_contexts": ["langchain"]
+  },
+  {
+    "question": "How do Python generators work?",
+    "ground_truth_answer": "Python generators are functions that use yield instead of return. They produce a sequence of values lazily, one at a time, which is memory-efficient for large datasets. Generator expressions provide a concise syntax similar to list comprehensions.",
+    "ground_truth_contexts": ["python"]
+  },
+  {
+    "question": "What is the capital of France?",
+    "ground_truth_answer": "",
+    "ground_truth_contexts": []
+  },
+  {
+    "question": "What is the weather like today?",
+    "ground_truth_answer": "",
+    "ground_truth_contexts": []
+  },
+  {
+    "question": "What are prompt templates in LangChain?",
+    "ground_truth_answer": "Prompt templates in LangChain are predefined recipes for generating prompts for language models. They contain a template string with variables that get filled in at runtime, supporting both string and chat message formats.",
+    "ground_truth_contexts": ["langchain"]
+  },
+  {
+    "question": "How do you read and write files in Python?",
+    "ground_truth_answer": "Python uses the built-in open() function to read and write files. The with statement is recommended for file handling as it ensures proper cleanup. Common modes include 'r' for reading, 'w' for writing, and 'a' for appending.",
+    "ground_truth_contexts": ["python"]
+  },
+  {
+    "question": "What is a document loader in LangChain?",
+    "ground_truth_answer": "Document loaders in LangChain are components that load data from various sources (PDFs, web pages, databases, etc.) and convert them into Document objects with page_content and metadata fields.",
+    "ground_truth_contexts": ["langchain"]
+  },
+  {
+    "question": "What are Python context managers?",
+    "ground_truth_answer": "Context managers in Python manage resources using the with statement. They define __enter__ and __exit__ methods (or use the contextlib module) to ensure proper acquisition and release of resources like files, locks, and connections.",
+    "ground_truth_contexts": ["python"]
+  },
+  {
+    "question": "How does text splitting work in LangChain?",
+    "ground_truth_answer": "Text splitters in LangChain break large documents into smaller chunks for embedding and retrieval. The RecursiveCharacterTextSplitter is commonly used, splitting on a hierarchy of separators while respecting chunk size and overlap settings.",
+    "ground_truth_contexts": ["langchain"]
+  },
+  {
+    "question": "What are Python dataclasses?",
+    "ground_truth_answer": "Dataclasses are a Python decorator and module that automatically generate __init__, __repr__, __eq__ and other special methods for classes that primarily store data. They reduce boilerplate code for data-holding classes.",
+    "ground_truth_contexts": ["python"]
+  },
+  {
+    "question": "What is an output parser in LangChain?",
+    "ground_truth_answer": "Output parsers in LangChain transform the raw string output from an LLM into a more structured format. They support formats like JSON, Pydantic models, lists, and custom schemas, and can include format instructions in the prompt.",
+    "ground_truth_contexts": ["langchain"]
+  },
+  {
+    "question": "How do you use virtual environments in Python?",
+    "ground_truth_answer": "Virtual environments in Python isolate project dependencies. You create one with python -m venv myenv, activate it, then install packages with pip. This prevents conflicts between different projects' dependencies.",
+    "ground_truth_contexts": ["python"]
+  }
+]
